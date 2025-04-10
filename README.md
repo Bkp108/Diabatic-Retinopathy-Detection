@@ -99,23 +99,26 @@ DIABATIC_RETENOPHLYA_DETECTION/
 ```bash
 git clone https://github.com/Bkp108/Diabetic-Retinopathy-Detection.git
 cd Diabetic-Retinopathy-Detection
+```
 
 ### 💻 2. Create Virtual Environment
 
 ```bash
 python -m venv venv
 .\venv\Scripts\activate      # Windows
+```
 
 ### 📦 3. Install Requirements
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 🏁 4. Start the FastAPI App
 
 ```bash
 uvicorn main:app --reload
-
+```
 
 ### Open your browser and go to:
 
